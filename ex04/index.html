@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Box Model Comparison</h1>
+
+        <section class="box-comparison">
+            <div class="box content-box">
+                <h2>content-box</h2>
+                <p>Declared width: 300px</p>
+                <p>Padding (20px) & Border (10px) are <strong>added</strong> to width.</p>
+                <p>Total rendered width: <strong>360px</strong></p>
+            </div>
+
+            <div class="box border-box">
+                <h2>border-box</h2>
+                <p>Declared width: 300px</p>
+                <p>Padding (20px) & Border (10px) are <strong>absorbed</strong> inside width.</p>
+                <p>Total rendered width: <strong>300px</strong></p>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

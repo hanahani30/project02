@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 40px 20px;
+    background-color: #f0f2f5;
+}
+
+.swatch-palette {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.swatch {
+    flex: 1;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.swatch.named {
+    background-color: crimson;
+}
+
+.swatch.hex {
+    background-color: #1e293b;
+}
+
+.swatch.rgb {
+    background-color: rgb(16, 185, 129);
+}
+
+.swatch.rgba {
+    background-color: rgba(245, 158, 11, 0.7);
+}
+
+.comparison-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    padding: 24px;
+    border-radius: 8px;
+    border: 2px solid #000000;
+}
+
+.card-content {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 16px;
+    border-radius: 6px;
+}
+
+.opacity-card {
+    background-color: #2563eb;
+    opacity: 0.5;
+}
+
+.rgba-card {
+    background-color: rgba(37, 99, 235, 0.5);
+}

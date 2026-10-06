@@ -1,0 +1,54 @@
+/* إعادة ضبط أساسية للعناصر */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+/* تنسيق شريط التنقل باستخدام الخصائص المحددة */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* تنسيق حاوية البطاقات باستخدام الخصائص المحددة */
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* تنسيق البطاقات الفردية */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 calc(25% - 20px); /* يضمن التجاوب لتظهر البطاقات بجانب بعضها وتتأقلم مع الشاشة */
+    min-width: 220px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
